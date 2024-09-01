@@ -1,0 +1,176 @@
+
+/* Search Components Style */
+
+.search-section {
+  width: 100vw;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.image {
+  width: 150px;
+  height: 100px;
+}
+
+.category {
+  font-size: 20px;
+}
+
+/* Popup Components Style */
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: url(./components/images/formBackground.jpg);
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 250px;
+  width: 90%;
+  position: relative;
+  color: ghostwhite;
+  font-weight: bold;
+}
+
+.popup-content .validInput {
+  background-color: rgba(248, 248, 255, 0.521);
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.popup-content textarea {
+  background-color: rgba(248, 248, 255, 0.521);
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+}
+
+.popup-content .submit {
+  background-color: violet;
+  font-weight: bold;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.popup-content .submit:hover {
+  background-color: transparent;
+  border: 2px solid violet;
+  color: ghostwhite;
+  transition: 0.5s;
+}
+
+/* Carousel Component Style */
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 1000px;
+  height: 250px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+/* Fshion Component Style */
+
+.fashion-container {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fashion-img {
+  width: 250px;
+  height: 400px;
+}
+
+.fashion-img:hover {
+  scale: 1.05;
+}
+
+.fashion-division {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.fashion-division img {
+  height: 100px;
+  width: 100px;
+}
+
+.fashion-division h2 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.shirts-container {
+  display: flex;
+  overflow: scroll;
+  scrollbar-width: none;
+  gap: 20px;
+  padding: 10px;
+}
+
+.shirts-img {
+  height: 250px;
+  width: 250px;
+  border: 2px solid black;
+  cursor: pointer;
+}

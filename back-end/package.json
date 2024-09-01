@@ -1,0 +1,20 @@
+{
+  "name": "new-try",
+  "version": "1.0.0",
+  "description": "new try to make ",
+  "main": "index.js",
+  "scripts": {
+    "start": "start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "lovelyraj",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
